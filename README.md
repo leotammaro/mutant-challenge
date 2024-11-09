@@ -6,7 +6,7 @@ He has hired you to develop a project to detect if a human is a mutant based on 
 
 To do this, he has asked you to create a program with a method or function with the following signature
 
-boolean isMutant(String[] dna);
+`boolean isMutant(String[] dna);`
 
 `Non-mutant example`
 

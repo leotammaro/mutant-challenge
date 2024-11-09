@@ -17,7 +17,7 @@ describe("getDiagonalsFromTopRightToBottomLeft", () => {
     ).toEqual(DIAGONALS_EXPECTED);
   });
 
-  it("should return matrix with 3 arrays with length 4", () => {
+  it("should return the expected number of diagonals from top-left to bottom-right, with each diagonal having the correct length", () => {
     const sequences: string[][] = [];
 
     const DIAGONALS_EXPECTED = [
