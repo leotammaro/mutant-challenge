@@ -8,7 +8,9 @@ To do this, he has asked you to create a program with a method or function with 
 
 boolean isMutant(String[] dna);
 
-Non-mutant example
+`Non-mutant example`
+
+```
 [
 "ATGCGA",
 "CAGTGC",
@@ -17,9 +19,11 @@ Non-mutant example
 "GCGTCA",
 "TCACTG"
 ]
+```
 
-Mutant example
+`Mutant example`
 
+```
 [
 "ATGCGA",
 "CAGTGC",
@@ -28,6 +32,7 @@ Mutant example
 "CCCCTA",
 "TCACTG"
 ]
+```
 
 You will know if a human is a mutant if you find more than one sequence of four identical letters, either diagonally, horizontally, or vertically.
 
